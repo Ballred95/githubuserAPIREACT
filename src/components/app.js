@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import gitHubUser from './githubuser';
+import GitHubUser from './githubuser';
 
 export default class App extends Component {
   render() {
@@ -7,7 +7,7 @@ export default class App extends Component {
       <div className='app'>
         <h1>DevCamp React Starter</h1>
         <h2>React Redux Router</h2>
-        <gitHubUser login = {ballred95} />
+        <GitHubUser login = {'ballred95'} />
       </div>
     );
   }
