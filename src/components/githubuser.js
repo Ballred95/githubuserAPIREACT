@@ -14,7 +14,8 @@ export default function gitHubUser({login}) {
     if(data) {
         return(
             <div>
-                {JSON.stringify(data)}
+                <img src ={data.avatar_url} />
+                <h1>{data.login}</h1>
             </div>
         )
 
